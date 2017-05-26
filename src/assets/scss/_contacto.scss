@@ -1,0 +1,26 @@
+  #contact{
+    .hero{
+      margin-top:-6.05rem;
+      min-height:100vh;
+      position: relative;
+      background-color: $secondary-color;
+      color: $white;
+    }
+    .content{
+      position: absolute;
+      top: 57%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .box{
+      background-color:black;
+    }
+    .button{
+      text-transform: uppercase;
+      font-weight: bold;
+      float: right;
+    }
+    [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+      border-radius: 0rem;
+    }
+  }

@@ -1,0 +1,29 @@
+#home{
+  background-color:black;
+  color: $white;
+  section{height:100vh;   position: relative;}
+  .content{  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);}
+  h1,h2,h3{text-transform: uppercase; margin:2rem 0;}
+  .hero{
+  margin-top:-3rem;
+  p{font-size:$h1-font-size;}
+  }
+  .how{
+    background-color: $white;
+    color:$black;
+  }
+  .why{
+    height:auto;
+    padding-top:2rem;
+    background-color:$secondary-color;
+    .columns{padding-left: 3rem;padding-right: 3rem;}
+    .clientes{
+      margin:1rem 0;
+      padding:1rem 0;
+      background-color: $white;
+      color:$black;
+    }
+  }
+}

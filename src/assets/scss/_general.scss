@@ -1,0 +1,32 @@
+#headerblog{
+  position:relative;
+  z-index:9999;
+  text-transform: uppercase;
+  .top-bar-left{
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-top:0.25rem;
+    span{color:white;}
+  }
+  .top-bar-right{
+    ul li a{color:white; border-bottom: 2px solid transparent;
+    &:hover{border-bottom: 2px solid $primary-color;}}
+
+  }
+}
+
+footer{
+  background-color:$secondary-color;
+  margin:0;
+  padding:0.5rem;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  span{color:white;}
+  p{margin:0;}
+}
+//
+// .columns{background-color:blue;}
+// .row{background-color:red;}
