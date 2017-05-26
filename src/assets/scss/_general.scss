@@ -2,26 +2,29 @@
   position:relative;
   z-index:9999;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   .top-bar-left{
-    word-spacing: 5px;
+    word-spacing: -6px;
     letter-spacing: 4px;
-    font-weight: bold;
     margin-top:0.25rem;
     span{color:white;}
   }
   .top-bar-right{
-    ul li a{color:white; border-bottom: 2px solid transparent;
+    .button{ font-size:1rem !important; padding:0.6rem 0.8rem;}
+    ul li a{color:white; border-bottom: 2px solid transparent; font-weight: 100;
     &:hover{border-bottom: 2px solid $primary-color;}}
 
   }
 }
-
+  h1,h2,h3{text-transform: uppercase; margin:2rem 0;}
+  h1,h2,h3,.button{  font-family: 'Montserrat', sans-serif; }
+  .button{font-size:1.2rem;}
 footer{
-  background-color:$secondary-color;
+  background-color:scale-color($secondary-color, $lightness: 15%);
   margin:0;
   padding:0.5rem;
   text-transform: uppercase;
-  word-spacing: 5px;
+  word-spacing: 0px;
   letter-spacing: 4px;
   font-weight: bold;
   span{color:white;}

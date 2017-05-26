@@ -5,6 +5,9 @@
       position: relative;
       background-color: $secondary-color;
       color: $white;
+      background-image: url('../img/mobile/contact.jpg');
+      background-size: cover;
+          overflow: hidden;
     }
     .content{
       position: absolute;
@@ -22,5 +25,6 @@
     }
     [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
       border-radius: 0rem;
+      color: $medium-gray;
     }
   }

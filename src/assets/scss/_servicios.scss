@@ -1,5 +1,5 @@
 #servicios{
-
+  h2{padding:2rem 0;}
   .content{  position: absolute;
   top: 50%;
   transform: translateY(-50%);}
@@ -10,14 +10,23 @@
     margin-top:-3rem;
     height:100vh;   position: relative;
   p{font-size:$h2-font-size;}
+  background-image: url('../img/mobile/hero.jpg');
+  background-size: cover;
+      overflow: hidden;
   }
   .analytics{
-
+    padding:2rem 0 5rem 0;
   }
   .consultant{
+    background-color: $medium-gray;
+    padding:2rem 0 5rem 0;
 
   }
   .team{
-
+        overflow-x: hidden;
+        background-color:$secondary-color;
+        color:$light-gray;
+        .columns{padding-left:3rem; padding-right: 3rem;}
+    img{ max-width: none; min-width:70vw; min-height:70vh;}
   }
 }

@@ -1,0 +1,29 @@
+#cursos{
+  .content{  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);}
+    .button{margin-top:1rem;}
+  .hero{
+    background-color:black;
+    color: $white;
+    margin-top:-3rem;
+    height:100vh;   position: relative;
+  p{font-size:$h2-font-size;}
+  background-image: url('../img/mobile/hero.jpg');
+  background-size: cover;
+      overflow: hidden;
+  }
+  .learn{
+    overflow-x: hidden;
+    h2{color:$secondary-color;}
+    img{max-width: none; height:550px;}
+    padding:2rem 0 4rem 0;
+  }
+  .testimonials{
+      background-image: url('../img/mobile/testimonials_alpha.jpg');
+      height:450px;
+  }
+  .cursos{
+    margin:2rem 0 4rem 0;
+  }
+}
